@@ -1,4 +1,9 @@
 # Fourier Neural Operator for Acoustic Wavefield Simulation
+<div style="text-align: right; font-family: Helvetica, Arial, sans-serif; color: #555; margin-top: 20px;">
+  <strong>Authors: Yang Cui</strong><br>
+  King Fahd University of Petroleum and Minerals, Saudi Arabia<br>
+  Uppsala University, Uppsala, Sweden
+</div> <br>
 
 This repository provides **2D and 3D** acoustic wavefield simulation codes based on Fourier Neural Operators (FNO). It includes data preparation, model architecture, training loops, inference scripts, and result comparisons.
 
@@ -6,7 +11,9 @@ The repo is designed for **educational purposes**. You can directly train the mo
 
 ## 2D Acoustic Wavefield Simulation using FNO
 
-The 2D implementation is adapted from Yang et al. (2021). We evaluate the FNO using Gaussian random velocity models. The model is trained on wavefield snapshots generated from **20 random source locations** and tested on **5 unseen sources** during inference.
+Yang, Yan, et al. "Seismic wave propagation and inversion with neural operators." *The Seismic Record* 1.3 (2021): 126-134.<br>
+
+This project evaluates the effectiveness of the Fourier Neural Operator (FNO; Li et al., 2020) for simulating acoustic wavefields in the time-spatial domain. We utilize a 2D velocity model extracted from the OpenFWI dataset to generate wavefields. A total of 50 wavefields, each comprising 1,000 snapshots, are split into 42 training and 8 validation datasets. The FNO model was trained for 1,000 epochs, with each epoch taking approximately 6.5 seconds on a workstation equipped with an NVIDIA RTX A4500 GPU. To facilitate ease of use, we have provided pre-trained models, allowing users to test the simulation during the course and experiment with the training code later.
 
 ## 3D Acoustic Wavefield Simulation using Modified UFNO
 
