@@ -1,6 +1,6 @@
 # Fourier Neural Operator for Acoustic Wavefield Simulation
 <div style="text-align: right; font-family: Helvetica, Arial, sans-serif; color: #555; margin-top: 20px;">
-  <strong>Authors: Yang Cui</strong><br>
+  <strong>Author: Yang Cui</strong><br>
   King Fahd University of Petroleum and Minerals, Saudi Arabia<br>
   Uppsala University, Uppsala, Sweden
 </div> <br>
